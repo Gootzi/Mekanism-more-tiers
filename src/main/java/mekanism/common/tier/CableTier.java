@@ -15,6 +15,7 @@ public enum CableTier implements ITier {
     ADVANCED(BaseTier.ADVANCED, FloatingLong.createConst(128_000)),
     ELITE(BaseTier.ELITE, FloatingLong.createConst(1_024_000)),
     ULTIMATE(BaseTier.ULTIMATE, FloatingLong.createConst(8_192_000));
+    ULTRA(BaseTier.ULTRA, FloatingLong.createConst(32_767_000));
 
     private final FloatingLong baseCapacity;
     private final BaseTier baseTier;
