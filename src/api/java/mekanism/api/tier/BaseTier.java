@@ -16,6 +16,7 @@ public enum BaseTier implements StringRepresentable {
     ADVANCED("Advanced", EnumColor.DARK_RED, EnumColor.RED),
     ELITE("Elite", EnumColor.INDIGO, EnumColor.INDIGO),
     ULTIMATE("Ultimate", EnumColor.PURPLE, EnumColor.PURPLE),
+    ULTRA("Ultra", EnumColor.YELLOW, EnumColor.YELLOW),
     CREATIVE("Creative", EnumColor.BLACK, EnumColor.DARK_GRAY);
 
     private static final BaseTier[] TIERS = values();
